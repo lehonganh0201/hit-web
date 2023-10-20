@@ -1,0 +1,57 @@
+:root{
+    --main-color:#ea2590;
+    --sub-color:#d1e9d2;
+    --text-sub:#779380;
+    --backgroud-color:#ffffd4;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.info__img{
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.avatar{
+    display: flex;
+    align-items: end;
+}
+
+.margin__bottom--cancel{
+    margin-bottom: 0;
+}
+
+.text--italic{
+    font-style: italic;
+}
+
+.width-min{
+    width: 10%;
+}
+
+.width-max{
+    width: 90%;
+}
+
+.width-full{
+    width: 100%;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+table, td, tr{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+tr{
+    height: 32px;
+}
+
+.text--indent{
+    text-indent: 12px;
+}
