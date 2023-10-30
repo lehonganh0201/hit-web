@@ -1,57 +1,45 @@
-:root{
-    --main-color:#ea2590;
-    --sub-color:#d1e9d2;
-    --text-sub:#779380;
-    --backgroud-color:#ffffd4;
+body{
+    font-family: 'Noto Sans Display', sans-serif;
+    background-color: #0113b0;
+    color: #fff;
 }
 
-.text-center{
+.container{
+    margin-top: 20%;
+    transform: translateY(-50%);
     text-align: center;
 }
 
-.info__img{
-    max-width: 100px;
-    border-radius: 50%;
+.container__title{
+    margin: 0 auto;
+    width: 200px;
 }
 
-.avatar{
-    display: flex;
-    align-items: end;
+.container__name{
+    min-width: 400px;
+    font-weight: 900;
+    font-size: 150px;
+    margin:0;
 }
 
-.margin__bottom--cancel{
-    margin-bottom: 0;
+span{
+    font-size: 30px;
+    font-weight: 800;
 }
 
-.text--italic{
-    font-style: italic;
+.container__birt{
+    margin-left: 100px;
 }
 
-.width-min{
-    width: 10%;
+.container__desc{
+    padding-right: 330px;
 }
 
-.width-max{
-    width: 90%;
+.container__icon{
+    font-size: 32px;
+    margin-top: 48px;
 }
 
-.width-full{
-    width: 100%;
-}
-
-.text-bold{
-    font-weight: bold;
-}
-
-table, td, tr{
-    border: 1px solid #000;
-    border-collapse: collapse;
-}
-
-tr{
-    height: 32px;
-}
-
-.text--indent{
-    text-indent: 12px;
+.fa-brands{
+    margin-left: 32px;
 }
